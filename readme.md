@@ -1,6 +1,7 @@
 # vite-plugin-xml-loader
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
 A [Vite](https://vitejs.dev/) plugin that would will transform all xml files to json buffer 
 
 ## Install
