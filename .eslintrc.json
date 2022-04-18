@@ -32,5 +32,6 @@
             "extensions": [".js", ".jsx", ".ts", ".tsx"]
           }
         }
-      }
+      },
+    "ignorePatterns": ["dist"]
 }

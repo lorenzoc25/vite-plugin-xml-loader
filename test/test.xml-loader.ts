@@ -1,8 +1,8 @@
 import XMLLoader from '../index';
 
-const main = async () => {
+const test = async () => {
   const result = await XMLLoader().transform('', './t.xml');
   console.log(result);
 };
 
-main();
+test();

@@ -2,8 +2,9 @@
   "name": "vite-plugin-xml-loader",
   "version": "1.0.0",
   "description": "xml loader plugin for vite",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
