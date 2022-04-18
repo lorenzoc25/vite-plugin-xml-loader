@@ -23,6 +23,10 @@ export default defineConfig({
 })
 ```
 and the plugin should be ready to use.
-
+## Testing
+This plugin is also testable and there's a test script ready. To test it yourself, you can clone this repository and do 
+```
+npm test
+```
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
