@@ -1,11 +1,8 @@
 import XMLLoader from '../index';
 
-test('correct xml to json', async () => {
+test('Correct xml to json transformation', async () => {
   const result = await XMLLoader().transform('', __dirname + '/test.xml');
-  const expectedObj = {
-    "code": "export default {\"test\":\"\"}",
-  };
-  expect(result).toStrictEqual(expectedObj);
+  expect(result.code).toStrictEqual("export default {\"test\":\"\"}");
 });
 
 test('Non .xml file', async () => {
