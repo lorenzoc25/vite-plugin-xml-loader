@@ -9,5 +9,8 @@
 /dist
 /demo
 
+#tests
+/coverage
+
 # misc
 .DS_Store

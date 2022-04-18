@@ -33,5 +33,5 @@
           }
         }
       },
-    "ignorePatterns": ["dist"]
+    "ignorePatterns": ["dist", "__tests__"]
 }
